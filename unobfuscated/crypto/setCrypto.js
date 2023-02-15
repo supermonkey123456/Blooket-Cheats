@@ -27,7 +27,7 @@
             i.remove();
             let amount = Number(parseInt(prompt("How much crypto would you like?")));
             let { stateNode } = Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner;
-            stateNode.setState({ crypto: amount, crypto2: amount });
+            stateNode.setState({ crypto: 1233345354735, crypto2: amount });
             stateNode.props.liveGameController.setVal({
                 path: "c/".concat(stateNode.props.client.name),
                 val: {
